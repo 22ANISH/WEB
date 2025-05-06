@@ -1,0 +1,6 @@
+docker --version
+node anish.js
+docker build -t ass2b .
+docker images
+
+docker ps
