@@ -1,10 +1,12 @@
 ** To Transfer File From VM1 To VM2:
  -Commands To Execute on VM1:
   1. ifconfig
-  2. ls
+  ls
+  2.sudo apt install net-tools
   3. touch filename.extension
   4. cat filename.extension
   5. nano filename.extension
+  //then crtl+x then y then enter
   6. cat filename.extension
   7. scp filename.extension vagrant@ip_address_of_VM2:/home/vagrant
 
@@ -17,7 +19,8 @@
 ** To Transfer File From VM2 To VM1:
  -Commands To Execute on VM2:
   1. ifconfig
-  2. ls
+   ls
+  2.sudo apt install net-tools
   3. touch filename.extension
   4. cat filename.extension
   5. nano filename.extension
@@ -27,4 +30,24 @@
  -Commands To Execute on VM1:
   1. ifconfig
   2. ls  OR ls /home/vagrant
+  3. cat filename.extension
+
+
+  //
+  1. ifconfig
+  ls
+  2.sudo apt install net-tools
+  3. touch filename.extension
+  4. cat filename.extension
+  5. nano filename.extension
+  //then crtl+x then y then enter
+  6. cat filename.extension
+  7. sudo ip addr add 192.168.100.11 /dev eth0
+  7. scp filename.extension vagrant@ip_address_of_VM2:/home/vagrant
+// yes password
+  
+ -Commands To Execute on VM1:
+  1. ifconfig
+  2. ls  OR ls /home/vagrant
+  3. sudo ip addr add 192.168.100.12 /dev eth0
   3. cat filename.extension
