@@ -1,0 +1,19 @@
+npm init
+npm i mongodb
+npm i express
+
+//Command in mongo db
+show databases
+use student
+db.createCollection('profile')
+db.profile.insertOne({name:"Anish",email:"anish@gmail.com",city:"Pune"})
+
+//
+
+node index.js
+
+// use postman for get and post ,put
+for get use:- localhost:3000/
+for post use:- localhost:3000/
+for put use :- localhost:3000/Rohit 
+for delete use:- localhost:3000/Rohit
