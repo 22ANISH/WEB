@@ -1,3 +1,5 @@
+ ASS 2c
+ 
  npm install -g @angular/cli@latest
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
  ng new part-c(filename)
