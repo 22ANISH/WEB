@@ -35,21 +35,36 @@ print('\nTable of 5:\n')
 for i in range(1, 11):
     print("5 x {} = {}".format(i, 5 * i))
 
+# Find the greatest among three numbers
+
+a = 10
+b = 25
+c = 15
+
+if a >= b and a >= c:
+    print("The greatest number is ")
+    print(a)
+elif b >= a and b >= c:
+    print("The greatest number is ")
+    print(b)
+else:
+    print("The greatest number is ")
+    print(c)
 
 # Prime Number Check
 print('\nPrime Number Check:')
-n = 29  # You can change this number to test others
-is_prime = True
+n = 29  # You can change this value to test other numbers
 
+# Check for prime
 if n <= 1:
-    is_prime = False
+    print(n)
+    print("is a Prime Number")
 else:
     for i in range(2, int(n**0.5) + 1):
         if n % i == 0:
-            is_prime = False
+            print(n)
+            print("is a NOT Prime Number")
             break
-
-if is_prime:
-    print(f"{n} is a Prime Number")
-else:
-    print(f"{n} is not a Prime Number")
+    else:
+         print(n)
+         print("is a Prime Number")
