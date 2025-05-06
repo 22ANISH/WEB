@@ -1,0 +1,13 @@
+ npm install -g @angular/cli@latest
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+ ng new part-c(filename)
+ select this css  https://developer.mozilla.org/docs/Web/CSS                           
+cd part-c
+// files to be changed
+this file is inside src->app
+
+app.component.html
+app.component.css
+app.component.ts
+
+ng serve
